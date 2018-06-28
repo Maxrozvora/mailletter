@@ -104,8 +104,20 @@ body {
   padding: 20px;
 }
 
-.w-60 {
-  max-width: 60%;
+.table-field {
+  background: #F7F7F7;
+  z-index: 1;
+  color: #878787;
+  text-align: left;
+}
+
+.table-field-dark {
+  color: #000000;
+}
+
+.table-value {
+  font-weight: 500;
+  padding-left: 30px;
 }
 
 .info {
