@@ -16,22 +16,10 @@ body {
   text-align: center;
 }
 
-.header__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-}
-
 .header__img {
   width: 300px;
   height: 33px;
+  margin-top: 15px;
 }
 
 .offer {
@@ -125,12 +113,6 @@ body {
   padding-left: 30px;
 }
 
-.info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .card {
   background-color: #F7F7F7;
   margin: 0 15px 15px 0;
@@ -139,12 +121,12 @@ body {
 }
 
 .card-left {
-  width: 60%;
+  width: 325px;
   display: inline-block;
 }
 
 .card-right {
-  width: 40%;
+  width: 185px;
   display: inline-block;
   margin-right: 0;
 }
