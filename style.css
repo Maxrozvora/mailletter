@@ -50,7 +50,7 @@ body {
 }
 
 .offer__descr {
-  color: #333333;
+  color: #63676E;
 }
 
 .table {
@@ -59,6 +59,7 @@ body {
   margin-bottom: 1rem;
   background-color: #F7F7F7;
   border-radius: 10px;
+  border-collapse: collapse;
 }
 
 .table thead th {
@@ -78,6 +79,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.table__item-price {
+  color: #63676E;
 }
 
 .table__item-image {
@@ -144,49 +149,6 @@ body {
   margin-right: 0;
 }
 
-.card-right .card__value {
-  text-align: right;
-}
-
-.card-right .card__text::before {
-  display: none;
-}
-
-.card__text {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  text-align: left;
-  margin: 4px 0;
-}
-
-.card__text-total {
-  font-weight: bold;
-  color: #000000;
-}
-
-.card__field {
-  background: #F7F7F7;
-  z-index: 1;
-  color: #878787;
-  text-align: left;
-}
-
-.card__field-dark {
-  color: #000000;
-}
-
-.card__value {
-  z-index: 1;
-  background: #F7F7F7;
-  font-weight: 500;
-  display: inline-block;
-}
-
 hr {
   border: 1px solid #EFEFEF;
 }
@@ -222,9 +184,7 @@ hr {
 
 .btn {
   padding: 15px 30px;
-  border-radius: 30px;
-  border: none;
-  outline: none;
+  border-radius: 99em;
   background-color: #C1C1C1;
   color: #ffffff;
   font-weight: 500;
@@ -240,6 +200,7 @@ hr {
 
 .footer__text {
   padding: 20px 0;
+  color: #63676E;
 }
 
 .footer__mail {
@@ -253,8 +214,16 @@ hr {
   text-align: center;
 }
 
+.footer__social a {
+  margin: 5px;
+}
+
 .footer__social img {
   width: 40px;
   height: 40px;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

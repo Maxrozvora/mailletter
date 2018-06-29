@@ -34,7 +34,7 @@ body
         width: 60px
         height: 60px
     &__descr
-        color: #333333
+        color: #63676E
 
 .table
     width: 100%
@@ -42,6 +42,7 @@ body
     margin-bottom: 1rem  
     background-color: $background
     border-radius: 10px
+    border-collapse: collapse
     thead
         th
             padding: 15px 20px
@@ -53,6 +54,8 @@ body
     &__item
         display: flex
         align-items: center
+        &-price 
+            color: #63676E
         &-image
             width: 40px
             height: 40px
@@ -93,35 +96,6 @@ body
         width: 40%
         display: inline-block
         margin-right: 0
-        .card__value
-            text-align: right
-        .card__text::before
-            display: none
-    
-    &__text
-        position: relative  
-        display: flex
-        justify-content: space-between
-        text-align: left 
-        margin: 4px 0
-        &-total
-            font-weight: bold
-            color: #000000
-    &__field
-        background: $background
-        z-index: 1
-        color: #878787
-        text-align: left
-        &-dark
-            color: #000000
-    &__value
-        z-index: 1
-        background: $background
-        font-weight: 500
-        display: inline-block
-        
-        
-
 
 hr
     border: 1px solid #EFEFEF
@@ -143,9 +117,7 @@ hr
 
 .btn
     padding: 15px 30px
-    border-radius: 30px
-    border: none
-    outline: none
+    border-radius: 99em   
     background-color: #C1C1C1
     color: #ffffff
     font-weight: 500    
@@ -155,6 +127,7 @@ hr
     text-align: center
     &__text
         padding: 20px 0
+        color: #63676E
     &__mail
         color: #858585
         font-weight: 500
@@ -162,11 +135,14 @@ hr
         background-color: #EEEEEE
         padding: 20px 0
         text-align: center
+        a
+            margin: 5px
         img
             width: 40px
             height: 40px
               
-    
+a
+    text-decoration: none    
     
        
-    
+
