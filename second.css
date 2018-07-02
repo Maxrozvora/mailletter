@@ -30,6 +30,7 @@ body {
 .offer__title {
   font-family: Roboto, sans-serif;
   font-size: 22px;
+  color: #000000;
 }
 
 .offer__card {
@@ -48,6 +49,7 @@ body {
 .data__title {
   font-size: 18px;
   margin: 5px;
+  color: #000000;
 }
 
 .data__info {
